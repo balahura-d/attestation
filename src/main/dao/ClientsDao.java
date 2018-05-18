@@ -1,5 +1,6 @@
 package main.dao;
 
-public class ClientsDao {
+import main.objects.Client;
 
+public interface ClientsDao extends GlobalDao<Client> {
 }

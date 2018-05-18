@@ -1,5 +1,7 @@
 package main.dao;
 
-public class OrdersDao {
+import main.objects.Orders;
+
+public interface OrdersDao extends GlobalDao<Orders> {
 
 }

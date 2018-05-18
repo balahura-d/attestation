@@ -1,5 +1,6 @@
 package main.dao;
 
-public class HotelsDao {
+import main.objects.Hotels;
 
+public interface HotelsDao extends GlobalDao<Hotels>{
 }

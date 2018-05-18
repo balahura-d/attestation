@@ -1,5 +1,7 @@
 package main.dao;
 
-public class RolesDao {
+import main.objects.Roles;
+
+public interface RolesDao extends GlobalDao<Roles> {
 
 }

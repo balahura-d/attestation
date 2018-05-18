@@ -1,5 +1,7 @@
 package main.dao;
 
-public class TransportDao {
+import main.objects.Transport;
+
+public interface TransportDao extends GlobalDao<Transport>{
 
 }

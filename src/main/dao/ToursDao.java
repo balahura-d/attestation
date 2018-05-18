@@ -1,5 +1,7 @@
 package main.dao;
 
-public class ToursDao {
+import main.objects.Tours;
+
+public interface ToursDao extends GlobalDao<Tours> {
 
 }

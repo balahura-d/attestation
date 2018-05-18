@@ -1,5 +1,6 @@
 package main.dao;
 
-public class CitiesDao {
+import main.objects.City;
 
+public interface CitiesDao extends GlobalDao<City> {
 }
